@@ -2,7 +2,7 @@ import express from 'express';
 import * as dotenv from 'dotenv';
 import { v2 as cloudinary } from 'cloudinary';
 
-import Post from '../mongodb/models/post.js';
+import Post from '../mongoDbMode/models/post.js';
 
 dotenv.config();
 
@@ -14,7 +14,7 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-router.route('/').get(async (req, res) => {
+router.route('/').get(async (_, res) => {
   try {
     const posts = await Post.find({});
     res.status(200).json({ success: true, data: posts });
