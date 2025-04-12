@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "axios": "^1.8.4",
+    "cloudinary": "^2.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "form-data": "^4.0.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.1.9",
+    "openai": "^4.93.0",
+    "request": "^2.88.2"
+  }
+}

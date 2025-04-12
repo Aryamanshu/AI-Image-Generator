@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="240" height="60" viewBox="0 0 240 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Modern abstract background elements -->
+  <rect x="2" y="2" width="236" height="56" rx="12" fill="#f8fafc" opacity="0.8"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="30" cy="30" r="20" fill="#0099FF" opacity="0.1"/>
+  <circle cx="210" cy="30" r="15" fill="#0099FF" opacity="0.1"/>
+  
+  <!-- Stability AI Icon - Modern interpretation -->
+  <g transform="translate(15, 15)">
+    <!-- First bar -->
+    <rect x="0" y="5" width="12" height="25" rx="2" fill="#0099FF">
+      <animate attributeName="height" values="25;28;25" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- Second bar -->
+    <rect x="16" y="0" width="12" height="30" rx="2" fill="#0099FF">
+      <animate attributeName="height" values="30;33;30" dur="3s" begin="0.3s" repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- Third bar -->
+    <rect x="32" y="10" width="12" height="20" rx="2" fill="#0099FF">
+      <animate attributeName="height" values="20;23;20" dur="3s" begin="0.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- Stability Text - Modern Typography -->
+  <g transform="translate(65, 35)">
+    <!-- S -->
+    <path d="M0.5,0 C0.5,-5 10,-5 10,-2.5 C10,0 0.5,2.5 0.5,5 C0.5,7.5 10,7.5 10,2.5" stroke="#333" stroke-width="3" stroke-linecap="round" fill="none"/>
+    
+    <!-- T -->
+    <path d="M15,-10 L30,-10 M22.5,-10 L22.5,7.5" stroke="#333" stroke-width="3" stroke-linecap="round" fill="none"/>
+    
+    <!-- A -->
+    <path d="M35,7.5 L40,-10 L45,7.5 M37,0 L43,0" stroke="#333" stroke-width="3" stroke-linecap="round" fill="none"/>
+    
+    <!-- B -->
+    <path d="M50,-10 L50,7.5 M50,-10 C60,-10 60,0 50,0 M50,0 C62.5,0 62.5,7.5 50,7.5" stroke="#333" stroke-width="3" stroke-linecap="round" fill="none"/>
+    
+    <!-- I -->
+    <path d="M65,-10 L65,7.5" stroke="#333" stroke-width="3" stroke-linecap="round" fill="none"/>
+    
+    <!-- L -->
+    <path d="M75,-10 L75,7.5 L85,7.5" stroke="#333" stroke-width="3" stroke-linecap="round" fill="none"/>
+    
+    <!-- I -->
+    <path d="M90,-10 L90,7.5" stroke="#333" stroke-width="3" stroke-linecap="round" fill="none"/>
+    
+    <!-- T -->
+    <path d="M95,-10 L110,-10 M102.5,-10 L102.5,7.5" stroke="#333" stroke-width="3" stroke-linecap="round" fill="none"/>
+    
+    <!-- Y -->
+    <path d="M115,-10 L120,0 L125,-10 M120,0 L120,7.5" stroke="#333" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+  
+  <!-- AI Text - Highlighted -->
+  <g transform="translate(195, 35)">
+    <!-- A -->
+    <path d="M0,7.5 L5,-10 L10,7.5 M2,0 L8,0" stroke="#0099FF" stroke-width="4" stroke-linecap="round" fill="none"/>
+    
+    <!-- I -->
+    <path d="M15,-10 L15,7.5" stroke="#0099FF" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+  
+  <!-- Subtle gradient overlay -->
+  <rect x="2" y="2" width="236" height="56" rx="12" fill="url(#paint0_linear)" opacity="0.05"/>
+  
+  <!-- Definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="240" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0099FF"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+</svg>
