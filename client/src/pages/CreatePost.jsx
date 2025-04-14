@@ -35,7 +35,7 @@ const CreatePost = () => {
       setGeneratingImg(true);
       setError(null);
 
-      const response = await fetch('http://localhost:8080/api/v1/stability', {
+      const response = await fetch('https://ai-image-generator-c188.onrender.com/api/v1/stability', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -75,7 +75,7 @@ const CreatePost = () => {
       setLoading(true);
       setError(null);
 
-      const response = await fetch('http://localhost:8080/api/v1/post', {
+      const response = await fetch('https://ai-image-generator-c188.onrender.com/api/v1/post', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
