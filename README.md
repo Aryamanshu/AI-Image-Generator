@@ -4,7 +4,7 @@
   <p><strong>Create, share, and explore AI-generated artwork powered by Stability AI</strong></p>
   
   <p>
-    <a href="#demo">View Demo</a> •
+    <a href="https://arya-ai-image-generator.netlify.app/">View Demo</a> •
     <a href="#features">Features</a> •
     <a href="#tech-stack">Tech Stack</a> •
     <a href="#installation">Installation</a> •
@@ -25,7 +25,7 @@
 
 ## ✨ Demo
 
-![Demo Animation](https://arya-ai-image-generator.netlify.app/)
+(https://arya-ai-image-generator.netlify.app/)
 
 
 
