@@ -25,9 +25,9 @@
 
 ## ✨ Demo
 
-![Demo Animation](https://i.imgur.com/YQHbvdX.gif)
+![Demo Animation](https://arya-ai-image-generator.netlify.app/)
 
-> **Note:** Add a GIF or screenshot of your application here.
+
 
 <br />
 
@@ -220,6 +220,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <br />
 
 <div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/Aryamanshu">Your Name</a></p>
+  <p>Made with ❤️ by <a href="https://github.com/Aryamanshu">Aryamanshu</a></p>
   <p>© 2024 Stability AI Gallery. All rights reserved.</p>
 </div>
